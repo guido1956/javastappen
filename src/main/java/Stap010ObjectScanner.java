@@ -1,6 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Stap010ObjectScanner {
@@ -9,6 +6,7 @@ public class Stap010ObjectScanner {
         System.out.println("Voer een dier in");
         String invoer = scanner.nextLine();
         System.out.println(invoer.toUpperCase());
+        System.out.println(invoer.toLowerCase());
     }
 
 
